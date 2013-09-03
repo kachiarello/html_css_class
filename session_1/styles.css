@@ -1,0 +1,42 @@
+body {
+	background-color: #9999FF;
+	color: #FFF;
+	font-family: comic sans ms, tahoma, arial;
+	font-size: 21px;
+	/* default is to tile the background image */
+	background-image: url(images/goats_and_flatirons_01.jpg);
+	background-repeat: no-repeat;
+	/* other repeat options */
+	/*
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	*/
+
+	/* shorthand version */
+	/*
+	background: url(images/goats_and_flatirons_01.jpg) fixed no repeat top right;
+	*/
+}
+p {
+	text-align: right;
+	letter-spacing: 4px;
+}
+
+/* This is a comment */
+h1 {
+	font-size: 64px;
+	color: pink;
+	background-color: white;
+}
+/* ID example w/ ID name = id_example */
+#id_example {
+	background-color: black;
+	color: yellow;
+	font-size: 300%;
+}
+
+/* Class example */
+.summer {
+	background-color: yellow;
+	color: magenta;
+}
